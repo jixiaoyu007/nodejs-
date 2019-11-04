@@ -1,0 +1,26 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "node 搭建本地静态服务器",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmer-XiaoyuJi/nodejs-.git"
+  },
+  "keywords": [
+    "node",
+    "静态服务器"
+  ],
+  "author": "吉小雨",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmer-XiaoyuJi/nodejs-/issues"
+  },
+  "homepage": "https://github.com/programmer-XiaoyuJi/nodejs-#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
