@@ -13,7 +13,7 @@ util.inherits(myStream,EventEmitter)
 
 const myURL = new URL('http:Example.com/?a=90', 'http://example.org/');
 // myURL.hostname = 'ee.com'
-
+console.log(myURL)
 myURL.searchParams.set('c',111)
 myURL.searchParams.set('d',222)
 myURL.searchParams.append('f',333)
